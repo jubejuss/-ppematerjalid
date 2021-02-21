@@ -6,11 +6,7 @@ https://www.markdownguide.org/basic-syntax/
 https://gist.github.com/webbj74/3788509  
 https://education.github.com/git-cheat-sheet-education.pdf 
 
-<object data="materials/git-cheatsheet-EN-dark.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="materials/git-cheatsheet-EN-dark.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="materials/git-cheatsheet-EN-dark.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<p>GIT Cheat sheet: <a href="materials/git-cheatsheet-EN-dark.pdf">Download PDF</a>.</p>
 
 **git origin on remote originaal**  
 **Git HEAD – only one branch can be checked out at a time - and this is what's called the "HEAD" branch. Often, this is also referred to as the "active" or "current" branch.**
@@ -27,6 +23,7 @@ https://education.github.com/git-cheat-sheet-education.pdf
 - git checkout -b UUSHARU
 - git merge UUSHARU (pead olema kuskil ja siis sinna liidad UUSHARU)
 - git branch -d UUSHARU (-d delete)
+- $ git push origin --delete UUSHARU ehk, et kustuta vastava nimeline remote oks
 - Fetch https://www.atlassian.com/git/tutorials/syncing/git-fetch
 - 
 
