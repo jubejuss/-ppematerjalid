@@ -10,6 +10,8 @@ https://education.github.com/git-cheat-sheet-education.pdf
 
 GIT'i vahendeid: https://education.github.com/
 
+GIT'i seletused ja õpe: https://www.gitkraken.com/learn/git/branch
+
 **git origin on remote originaal**  
 **Git HEAD – only one branch can be checked out at a time - and this is what's called the "HEAD" branch. Often, this is also referred to as the "active" or "current" branch.**
 
@@ -28,7 +30,7 @@ GIT'i vahendeid: https://education.github.com/
 - git branch -D UUSHARU kustutab jõuga
 - $ git push origin --delete UUSHARU ehk, et kustuta vastava nimeline remote oks
 - Fetch https://www.atlassian.com/git/tutorials/syncing/git-fetch
-- 
+- https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull/
 
 Alusta tööd alati pull käsuga, et sikutada remotest vajalik alla.
 
