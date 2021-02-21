@@ -14,3 +14,14 @@
 
 Alusta tööd alati pull käsuga, et sikutada remotest vajalik alla.
 
+### Juhend oma arvutist giti tegemiseks
+Kõigepealt tee oma arvutis git init.
+Siis git add . , et lisada kõik vajalik.
+Vajadusel ka .gitignore
+Siis git commit -m "siia kommentaar"
+
+**Siis ühenda github'iga**
+- New
+- Create
+- Push an existing repository...
+ja järgi juhiseid
