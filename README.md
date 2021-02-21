@@ -1,4 +1,6 @@
 # Õppematerjal
+Markdown'i juhend:  
+https://www.markdownguide.org/basic-syntax/  
 ## Git'i materjalid
 - git init
 - git status
