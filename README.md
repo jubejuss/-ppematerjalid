@@ -8,6 +8,8 @@ https://education.github.com/git-cheat-sheet-education.pdf
 
 <p>GIT Cheat sheet: <a href="materials/git-cheatsheet-EN-dark.pdf">Download PDF</a>.</p>
 
+GIT'i vahendeid: https://education.github.com/
+
 **git origin on remote originaal**  
 **Git HEAD – only one branch can be checked out at a time - and this is what's called the "HEAD" branch. Often, this is also referred to as the "active" or "current" branch.**
 
