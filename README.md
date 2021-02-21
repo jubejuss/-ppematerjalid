@@ -32,7 +32,7 @@ Siis git commit -m "siia kommentaar"
 ja järgi juhiseid
 
 Mergemisega on pisut segane, aga:
-Kui soovid kaht oksa ühendada, siis mine sinna, kughu teise tahad tõmmata ja git merge UUSHARU. Kui on erinevused, siis ta pakub võimaluse ümber kirjutada või asendada teisega emma, kumma või lisada mõlemad:  
+Kui soovid kaht oksa ühendada, siis mine sinna, kuhu teise tahad tõmmata ja git merge UUSHARU. Kui on erinevused, siis ta pakub võimaluse ümber kirjutada või asendada teisega emma, kumma või lisada mõlemad:  
 
 ![Image of Yaktocat](images/merge.png)
 
