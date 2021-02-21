@@ -1,7 +1,10 @@
 # Õppematerjal
 Markdown'i juhend:  
 https://www.markdownguide.org/basic-syntax/  
-## Git'i materjalid
+## Git'i materjalid  
+### git'i cheat sheet:  
+https://gist.github.com/webbj74/3788509  
+
 - git init
 - git status
 - git commit -m ""
