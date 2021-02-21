@@ -16,13 +16,14 @@ https://education.github.com/git-cheat-sheet-education.pdf
 - git add . või kui spetsiifiline fail siis selle nimi
 - git commit -m ""
 - git log
-- git checkout commit...
+- git checkout commit... taastab vastava commiti aegse seisu
 - git remote -v
 - git branch - näitab kõiki oksi
-- git checkout UUSHARU
-- git checkout -b UUSHARU
+- git checkout UUSHARU liigub vastavasse harusse
+- git checkout -b UUSHARU teeb haru ja liigub sellesse
 - git merge UUSHARU (pead olema kuskil ja siis sinna liidad UUSHARU)
 - git branch -d UUSHARU (-d delete)
+- git branch -D UUSHARU kustutab jõuga
 - $ git push origin --delete UUSHARU ehk, et kustuta vastava nimeline remote oks
 - Fetch https://www.atlassian.com/git/tutorials/syncing/git-fetch
 - 
