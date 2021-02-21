@@ -33,7 +33,12 @@ GIT'i seletused ja õpe: https://www.gitkraken.com/learn/git/branch
 - https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull/
 
 Alusta tööd alati "pull" käsuga, et sikutada remotest vajalik alla.  
-Kui sellega ei saa, ehk, et ta ei kirjuta kohapealset sodi üle, siis "git reset --hard origin/SIIAVAJALIKUBRANCHINIMI"
+Kui ei saa, siis:   
+git fetch --all  
+Kui ikka ei saa, siis:  
+git checkout -b backup-master  
+Ja seejärel:  
+"git reset --hard origin/SIIAVAJALIKUBRANCHINIMI" 
 
 ### Juhend oma arvutist giti tegemiseks
 Kõigepealt tee oma arvutis git init.  
