@@ -4,7 +4,13 @@ https://www.markdownguide.org/basic-syntax/
 ## Git'i materjalid  
 ### git'i cheat sheet:  
 https://gist.github.com/webbj74/3788509  
-https://education.github.com/git-cheat-sheet-education.pdf  
+https://education.github.com/git-cheat-sheet-education.pdf 
+
+<object data="materials/git-cheatsheet-EN-dark.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="materials/git-cheatsheet-EN-dark.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="materials/git-cheatsheet-EN-dark.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 **git origin on remote originaal**  
 **Git HEAD – only one branch can be checked out at a time - and this is what's called the "HEAD" branch. Often, this is also referred to as the "active" or "current" branch.**
