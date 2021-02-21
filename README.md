@@ -19,6 +19,7 @@ GIT'i seletused ja õpe: https://www.gitkraken.com/learn/git/branch
 - git status
 - "git add ." või kui spetsiifiline fail siis selle nimi
 - git commit -m ""
+- add ja commit koos: git commit -a -m "siia commit" 
 - git log
 - git checkout commit... taastab vastava commiti aegse seisu
 - git remote -v
@@ -69,4 +70,3 @@ fatal: The current branch uusoks has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin uusoks
-test
