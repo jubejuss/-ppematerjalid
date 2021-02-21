@@ -7,6 +7,7 @@ https://gist.github.com/webbj74/3788509
 
 - git init
 - git status
+- git add . või kui spetsiifiline fail siis selle nimi
 - git commit -m ""
 - git log
 - git checkout commit...
