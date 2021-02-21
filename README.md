@@ -32,7 +32,8 @@ GIT'i seletused ja õpe: https://www.gitkraken.com/learn/git/branch
 - Fetch https://www.atlassian.com/git/tutorials/syncing/git-fetch
 - https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull/
 
-Alusta tööd alati pull käsuga, et sikutada remotest vajalik alla.
+Alusta tööd alati pull käsuga, et sikutada remotest vajalik alla.  
+Kui sellega ei saa, ehk, et ta ei kirjuta kohapealset sodi üle, siis git reset --hard origin/SIIAVAJALIKUBRANCHINIMI
 
 ### Juhend oma arvutist giti tegemiseks
 Kõigepealt tee oma arvutis git init.  
