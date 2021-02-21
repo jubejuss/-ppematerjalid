@@ -30,3 +30,9 @@ Siis git commit -m "siia kommentaar"
 - Create
 - Push an existing repository...
 ja järgi juhiseid
+
+Mergemisega on pisut segane, aga:
+Kui soovid kaht oksa ühendada, siis mine sinna, kughu teise tahad tõmmata ja git merge UUSHARU. Kui on erinevused, siis ta pakub võimaluse ümber kirjutada või asendada teisega emma, kumma või lisada mõlemad:  
+:::image type="content" source="images/merge.png" alt-text="Merge":::  
+
+Kui mingil põhjusel ei saa, võid katkestada: git merge --abort
