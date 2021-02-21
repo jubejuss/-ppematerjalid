@@ -33,6 +33,7 @@ ja järgi juhiseid
 
 Mergemisega on pisut segane, aga:
 Kui soovid kaht oksa ühendada, siis mine sinna, kughu teise tahad tõmmata ja git merge UUSHARU. Kui on erinevused, siis ta pakub võimaluse ümber kirjutada või asendada teisega emma, kumma või lisada mõlemad:  
-:::image type="content" source="images/merge.png" alt-text="Merge":::  
+
+![Image of Yaktocat](images/merge.png)
 
 Kui mingil põhjusel ei saa, võid katkestada: git merge --abort
