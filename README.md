@@ -4,6 +4,9 @@ https://www.markdownguide.org/basic-syntax/
 ## Git'i materjalid  
 ### git'i cheat sheet:  
 https://gist.github.com/webbj74/3788509  
+https://education.github.com/git-cheat-sheet-education.pdf  
+
+**git origin on remote originaal**
 
 - git init
 - git status
@@ -11,12 +14,14 @@ https://gist.github.com/webbj74/3788509
 - git commit -m ""
 - git log
 - git checkout commit...
-- git emote -v
-- git branch
+- git remote -v
+- git branch - näitab kõiki oksi
 - git checkout UUSHARU
 - git checkout -b UUSHARU
 - git merge UUSHARU (pead olema kuskil ja siis sinna liidad UUSHARU)
 - git branch -d UUSHARU (-d delete)
+- Fetch https://www.atlassian.com/git/tutorials/syncing/git-fetch
+- 
 
 Alusta tööd alati pull käsuga, et sikutada remotest vajalik alla.
 
@@ -38,3 +43,6 @@ Kui soovid kaht oksa ühendada, siis mine sinna, kuhu teise tahad tõmmata ja gi
 ![Image of Yaktocat](images/merge.png)
 
 Kui mingil põhjusel ei saa, võid katkestada: git merge --abort
+
+Ühtlusta oksad nii lokaalselt kui eemaolevast:
+https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
