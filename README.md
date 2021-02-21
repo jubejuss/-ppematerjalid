@@ -47,3 +47,11 @@ Kui mingil põhjusel ei saa, võid katkestada: git merge --abort
 
 Ühtlusta oksad nii lokaalselt kui eemaolevast:
 https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+
+Kui teha uus oks ja siis commitada ja pushida, tekib nii:  
+
+❯ git push
+fatal: The current branch uusoks has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin uusoks
