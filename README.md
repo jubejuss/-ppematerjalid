@@ -17,23 +17,23 @@ GIT'i seletused ja õpe: https://www.gitkraken.com/learn/git/branch
 
 - git init
 - git status
-- git add . või kui spetsiifiline fail siis selle nimi
+- "git add ." või kui spetsiifiline fail siis selle nimi
 - git commit -m ""
 - git log
 - git checkout commit... taastab vastava commiti aegse seisu
 - git remote -v
 - git branch - näitab kõiki oksi
-- git checkout UUSHARU liigub vastavasse harusse
-- git checkout -b UUSHARU teeb haru ja liigub sellesse
-- git merge UUSHARU (pead olema kuskil ja siis sinna liidad UUSHARU)
-- git branch -d UUSHARU (-d delete)
-- git branch -D UUSHARU kustutab jõuga
-- $ git push origin --delete UUSHARU ehk, et kustuta vastava nimeline remote oks
+- "git checkout UUSHARU" liigub vastavasse harusse
+- "git checkout -b UUSHARU" teeb haru ja liigub sellesse
+- "git merge UUSHARU" (pead olema kuskil ja siis sinna liidad UUSHARU)
+- "git branch -d UUSHARU" (-d delete)
+- "git branch -D UUSHARU" kustutab jõuga
+- "git push origin --delete UUSHARU" ehk, et kustuta vastava nimeline remote oks
 - Fetch https://www.atlassian.com/git/tutorials/syncing/git-fetch
 - https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull/
 
-Alusta tööd alati pull käsuga, et sikutada remotest vajalik alla.  
-Kui sellega ei saa, ehk, et ta ei kirjuta kohapealset sodi üle, siis git reset --hard origin/SIIAVAJALIKUBRANCHINIMI
+Alusta tööd alati "pull" käsuga, et sikutada remotest vajalik alla.  
+Kui sellega ei saa, ehk, et ta ei kirjuta kohapealset sodi üle, siis "git reset --hard origin/SIIAVAJALIKUBRANCHINIMI"
 
 ### Juhend oma arvutist giti tegemiseks
 Kõigepealt tee oma arvutis git init.  
