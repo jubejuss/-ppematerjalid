@@ -30,3 +30,5 @@ Siis git commit -m "siia kommentaar"
 - Create
 - Push an existing repository...
 ja järgi juhiseid
+
+Siia ei peaks midgi tegema
