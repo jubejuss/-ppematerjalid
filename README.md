@@ -7,6 +7,7 @@ https://gist.github.com/webbj74/3788509
 https://education.github.com/git-cheat-sheet-education.pdf  
 
 **git origin on remote originaal**
+**Git HEAD – only one branch can be checked out at a time - and this is what's called the "HEAD" branch. Often, this is also referred to as the "active" or "current" branch.**
 
 - git init
 - git status
