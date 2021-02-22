@@ -48,7 +48,7 @@ Siis `git add .` , et lisada kõik vajalik.
 Vajadusel ka .gitignore  
 Siis `git commit -m "siia kommentaar"`  
 
-**Siis ühenda github'iga**
+**Siis mine github'i ja**
 - New
 - Create
 - Push an existing repository...
