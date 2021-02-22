@@ -1,5 +1,5 @@
 # Õppematerjal
-(Alt+M VS Code's kirjutamise abiks)  
+`Alt+M` VS Code's kirjutamise abiks kui on installitud docs-amrkdown plugin  
 `Shift+CMD+V` lülitab sisse MD preview  
 Markdown'i juhend:  
 https://www.markdownguide.org/basic-syntax/  
@@ -20,18 +20,19 @@ GIT'i seletused ja õpe: https://www.gitkraken.com/learn/git/branch
 - `git init` - initsialiseerib giti folderis, kus asud
 - `git status` - nagu nimi ütleb
 - `git add .` (või kui spetsiifiline fail siis selle nimi) lisad muudatused
-- `git commit -m ""` ütled, mis muudatused tegid
+- `git commit -m "Siia commit"` ütled, mis muudatused tegid
 - add ja commit koos: `git commit -a -m "siia commit"` 
 - `git log` - pmst ajalugu
 - `git checkout commit...` taastab vastava commiti aegse seisu
 - `git remote -v`näitab git remote originid
 - `git branch` - näitab kõiki oksi
-- `git checkout UUSHARU` liigub vastavasse harusse
-- `git checkout -b UUSHARU` teeb haru ja liigub sellesse
-- `git merge UUSHARU` (pead olema kuskil ja siis sinna liidad UUSHARU)
-- `git branch -d UUSHARU` (-d delete)
-- `git branch -D UUSHARU` kustutab jõuga
-- `git push origin --delete UUSHARU` ehk, et kustuta vastava nimeline remote oks
+- `git checkout <UUSHARU>` liigub vastavasse harusse
+- `git checkout -b <UUSHARU>` teeb haru ja liigub sellesse
+- `git branch <UUSHARU>`
+- `git merge <UUSHARU>` (pead olema kuskil ja siis sinna liidad UUSHARU)
+- `git branch -d <UUSHARU>` (-d delete)
+- `git branch -D <UUSHARU>` kustutab jõuga
+- `git push origin --delete <UUSHARU>` ehk, et kustuta vastava nimeline remote oks
 - Fetch https://www.atlassian.com/git/tutorials/syncing/git-fetch
 - https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull/
 
@@ -41,7 +42,7 @@ Kui ei saa, siis:
 Kui ikka ei saa, siis:  
 `git checkout -b backup-master`  
 Ja seejärel:  
-`git reset --hard origin/SIIAVAJALIKUBRANCHINIMI` 
+`git reset --hard origin/<SIIAVAJALIKUBRANCHINIMI>` 
 
 ### Juhend oma arvutist giti tegemiseks
 Kõigepealt tee oma arvutis git init.  
