@@ -1,5 +1,6 @@
 # Õppematerjal
 (Alt+M VS Code's kirjutamise abiks)  
+`Shift+CMD+V` lülitab sisse MD preview  
 Markdown'i juhend:  
 https://www.markdownguide.org/basic-syntax/  
 ## Git'i materjalid  
@@ -16,14 +17,14 @@ GIT'i seletused ja õpe: https://www.gitkraken.com/learn/git/branch
 **git origin on remote originaal**  
 **Git HEAD – only one branch can be checked out at a time - and this is what's called the "HEAD" branch. Often, this is also referred to as the "active" or "current" branch.**
 
-- `git init`
-- `git status`
-- `git add .` või kui spetsiifiline fail siis selle nimi
-- `git commit -m ""`
+- `git init` - initsialiseerib giti folderis, kus asud
+- `git status` - nagu nimi ütleb
+- `git add .` (või kui spetsiifiline fail siis selle nimi) lisad muudatused
+- `git commit -m ""` ütled, mis muudatused tegid
 - add ja commit koos: `git commit -a -m "siia commit"` 
-- `git log`
+- `git log` - pmst ajalugu
 - `git checkout commit...` taastab vastava commiti aegse seisu
-- `git remote -v`
+- `git remote -v`näitab git remote originid
 - `git branch` - näitab kõiki oksi
 - `git checkout UUSHARU` liigub vastavasse harusse
 - `git checkout -b UUSHARU` teeb haru ja liigub sellesse
