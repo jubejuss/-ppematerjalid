@@ -74,3 +74,5 @@ fatal: The current branch uusoks has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin uusoks
+
+Selle rea võiks kustutada
