@@ -57,7 +57,7 @@ ja järgi juhiseid
 Mergemisega aga:
 Kui soovid kaht oksa ühendada, siis mine sinna, kuhu teise tahad tõmmata ja `git merge UUSHARU`. Kui on erinevused, siis ta pakub võimaluse ümber kirjutada või asendada teisega emma, kumma või lisada mõlemad:  
 
-![Image of Yaktocat](images/merge.png)
+![Mergemise pilt](images/merge.png)
 
 Seejärel tee commit.  
 Kui mingil põhjusel ei saa, võid katkestada: `git merge --abort`
