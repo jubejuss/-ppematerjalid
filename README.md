@@ -36,13 +36,14 @@ GIT'i seletused ja õpe: https://www.gitkraken.com/learn/git/branch
 - Fetch https://www.atlassian.com/git/tutorials/syncing/git-fetch
 - https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull/
 
-Alusta tööd alati `pull` käsuga, et sikutada remotest vajalik alla.  
+Alusta tööd alati `git status` käsuga, siis, vajadusel või ka igaks juhuks `pull` käsuga, et sikutada remotest vajalik alla.  
 Kui ei saa, siis:   
 `git fetch --all`  
 Kui ikka ei saa, siis:  
 `git checkout -b backup-master`  
 Ja seejärel:  
-`git reset --hard origin/<SIIAVAJALIKUBRANCHINIMI>` 
+`git reset --hard origin/<SIIAVAJALIKUBRANCHINIMI>`  
+See viimane paneb vägisi peale remote'is oleva sisu  
 
 ### Juhend oma arvutist giti tegemiseks
 Kõigepealt tee oma arvutis git init.  
@@ -74,5 +75,3 @@ fatal: The current branch uusoks has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin uusoks
-
-Selle rea võiks kustutada
