@@ -1,4 +1,5 @@
 # Õppematerjal
+(Alt+M VS Code's kirjutamise abiks)  
 Markdown'i juhend:  
 https://www.markdownguide.org/basic-syntax/  
 ## Git'i materjalid  
